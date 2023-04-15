@@ -1,3 +1,4 @@
+require(`./crons/cron`);
 const express = require('express');
 const app = express();
 const serverConfig = require(`./configs/server.config`);
